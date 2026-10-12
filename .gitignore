@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output (Netlify/Vercel rebuilds this)
+dist/
+
+# Large local-only binaries - exceed GitHub 100MB limit, not needed for hosting
+ffmpeg.exe
+ffmpeg.zip
+ffmpeg_extracted/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Env secrets (none currently, but protect future)
+.env
+.env*.local
